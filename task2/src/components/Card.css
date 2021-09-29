@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #8447ff;
+}
+/* header  */
+
+header {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2% 1rem 2%;
+  top: 0;
+  /* left: 0; */
+  right: 0;
+  box-shadow: 0 0 1rem #ffffe898;
+  background-color: #ffffe8;
+  margin-bottom: 2rem;
+}
+
+header .logo {
+  font-family: "Pacifico", cursive;
+  color: #d972ff;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+header .navbar a {
+  color: #251605;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.Card h1 {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  color: #131112;
+  font-family: "Padauk";
+}
+
+.Card button {
+  font-size: 1.7rem;
+  padding: 1rem 5rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.3);
+  margin: 2rem 0;
+}
+
+.Card button:hover {
+  background-color: #36151e;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card-div .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem 10%;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 12rem;
+}
+
+.card-div .cards .user-profile {
+  text-align: left;
+  font-size: 1.7rem;
+  background-color: #e3e7d3;
+  padding: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+}
+
+.card-div .cards .user-profile .image {
+  text-align: center;
+}
+
+.card-div .cards .user-profile .image img {
+  border-radius: 50%;
+}
+
+.card-div .cards .user-profile p {
+  margin-top: 1rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 660px) {
+  html {
+    font-size: 50%;
+  }
+}

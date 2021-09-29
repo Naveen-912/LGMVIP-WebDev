@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url("images/main.jpg");
+    height: 100vh;
+    background-position: center top;
+    background-size: cover;
+}
+.header{
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.menu{
+    display:flex;
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+}
+.menu li{
+    margin-right: 30px;
+    cursor: pointer;
+    list-style: none;
+}
+.menu li:last-child{
+    margin-right: 0;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.main .text_container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 80%;
+    align-items:center;
+    justify-content: flex-start;
+    text-align: center;
+
+}
+.main h1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    word-spacing: 3px;
+}
+.main h6{
+    text-align: center;
+    font-weight: 500;
+    width: 53%;
+    margin-top:30px;
+    font-size: 18px;
+    font-style:normal;
+    font-family: 'Barlow', sans-serif;
+    color:#ffc1d7;
+}
+.main button{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 4px 15px;
+    font-size: 18px;
+    background-color: #9547a3;
+    color:white;
+    margin-top: 30px;
+    transition: all 0.5s;
+}
+.main button:hover{
+    box-shadow: 0 0 10px purple;
+    background-color:purple;
+}
+.section1 .sec-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:3rem;
+}
+.section1 .part1{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    width: 60%;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.section1 .part1 .text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section1 .part1 .text p{
+    width: 80%;
+    font-size: 18px;
+}
+.section1 .part1 i{
+    color: #ac4c76;
+    font-size: 150px;
+    margin-left: 50px;
+
+}
+.section1 .cards{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:80%;
+    margin-left: 60px;
+
+}
+.section1 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.418);
+    border-radius:5% ;
+    transition: all ease 0.5s;
+}
+.section1 .box:hover{
+    transform: translateY(-10px);
+}
+.section1 .box div{
+    border-radius: 50%;
+    margin-top: 50px;
+    background-color:#ac4c76 ;
+    padding: 35px 35px;
+    color: white;
+}
+.section1 .box p{
+    width:90%
+}
+.section1 .box div i{
+    font-size: 50px;
+}
+.section1 .box h5{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.section1 .box button{
+    background-color: #FF9243;
+    color: white;
+    padding:5px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all ease 0.5s;
+}
+.section1 .box button:hover{
+    background-color:#ac4c76b2 ;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.068);
+}
+.break{
+    width:75%;
+    background-color: rgb(156, 156, 156);
+    height:2px;
+    margin: 50px 0;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:48rem;
+    margin-top: 30px;
+
+}
+.section2 .img{
+    height: 32rem;
+    padding: 0;
+}
+.section2 .img img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.sec2div{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transition: all  ease 0.5s;
+}
+.sec2div .text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.sec2div .text-container .items{
+    width: 80%;
+    height: 75%;
+    
+}
+.section2 h6{
+    font-weight: bold;
+}
+.section2 button{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition: all ease 0.5s;
+    border-radius: 5px;
+}
+.sec2div:nth-child(odd){
+    background-color:#d5d7d977 ;
+}
+.sec2div:nth-child(even){
+    background-color:#b8b9b96c ;
+}
+.sec2div:hover{
+    background-color: rgba(255, 255, 0, 0.671);
+} 
+.sec2div button:hover{
+    background-color: purple;
+    box-shadow: 0 0 10px purple;
+    color: white;
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.pricing .text-container{
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 0.01fr 1fr 0.01fr 1fr;
+    margin-top: 30px;
+}
+.pricing .t1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing .hl{
+    background-color: grey;
+}
+.pricing .t1 h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.pricing .t1 h6{
+    color: gray;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.pricing .t1 p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+.pricing .t1 button{
+    padding: 3px 20px;
+    color: white;
+    background-color: rgb(255, 243, 68);
+    font-weight: 500;
+    transition: all ease-out 0.5s;
+}
+.pricing .t1 button:hover{
+    background-color: purple;
+}
+.video-carousel{
+    box-sizing: border-box;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #DD7373;
+    height: 45rem;
+}
+.video-carousel h2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: "poppins";
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.video-carousel .carousel{
+    background-color: #fafafa;
+
+}
+.video-carousel .carousel .carousel-cell{
+    width: 66%;
+    height:500px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 5px;
+    /* counter-increment: carousel-cell; */
+}
+.video-carousel .carousel .carousel-cell:before{
+    display: block;
+    text-align: center;
+    /* content: counter(carousel-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.team{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}.team h2{
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+.team .client{
+    text-align: center;
+}
+.team .client h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 30px;
+
+}
+.team i{
+    transition: font-size 0.15s ease-in;
+}
+.team i:hover{
+    font-size: 25px;
+}
+.team .client h6{
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.clientWarp{
+    width: 60%;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.team .client .image{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    width: 100px;
+    /* background-image: url("images/client1.jpg"); */
+    background-size: cover;
+    background-position:center top;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+.team .client .image .overlay{
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0; 
+    transition: opacity ease-in 0.25s;
+    cursor: pointer;
+}
+.team .client .image .overlay:hover{
+    opacity: 1;
+}
+.team .client .image .overlay i{
+    color: white;
+    cursor: pointer;
+}
+.slider{
+    display: flex;
+    margin: 100px 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #160C28;
+    padding-bottom: 100px;
+}
+.slider h2{
+    color: white;
+    font-family: "Playfair Display";
+    margin-top: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.slide{
+    margin:0 50px;
+    width: 70%;
+}
+.contact{
+    text-align: center;
+}
+.contact h2{
+    font-family: "Poppins";
+    font-weight: 700;
+    margin: 25px 0;
+}
+.contact .containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 38rem;
+}
+
+.contact .contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(255, 217, 0, 0.76);
+    padding-bottom: 75px;
+    
+}
+.contact .contact-form h2{
+   font-family: "Poppins";
+   font-weight: 700;
+}
+.contact .contact-form form{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+.contact .contact-form form div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.contact iframe{
+    width: 100%;
+    height:100%;
+}
+.contact form input{
+    width: 300px;
+    border-color: white;
+    border-style: none;
+}
+.contact form label{
+    font-family: "Fraunces";
+    font-weight: 900;
+}
+#message{
+    width: 300px;
+    border-color: white;
+    border-style: none;
+}
+.contact form .btn{
+    background-color: purple;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    width: 300px;
+    transition: all 0.25 ease-in-out;
+}
+.contact form .btn:hover{
+    box-shadow: 0 0 10px purple;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding:100px 0
+}
+footer .text-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+footer .text-container .addr{
+    display: flex;
+    justify-content: center;
+}
+footer .text-container .addr .warp{
+    width: 60%;
+
+}
+footer .text-container .links .warp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+}
+footer .text-container .links .warp .link{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .text-container .links .warp .link i{
+    cursor: pointer;
+}
+footer p{
+    color:grey;
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 600;
+}
+footer .text-container .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h6{
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: center;
+    
+}
